@@ -1,0 +1,30 @@
+{
+  "track-id" : "222PtjZWv9XReGm6SDQ0tq",
+  "track-info" : {
+    "id" : "222PtjZWv9XReGm6SDQ0tq",
+    "name" : "Dinosaurs & Blunts",
+    "artist" : "Arutani",
+    "album" : "Irreality",
+    "uri" : "spotify:track:222PtjZWv9XReGm6SDQ0tq",
+    "external-url" : "https://open.spotify.com/track/222PtjZWv9XReGm6SDQ0tq",
+    "duration-ms" : 382021
+  },
+  "categorization" : {
+    "genre" : [ "(none)" ],
+    "valence" : [ "(none)" ],
+    "identity" : [ "(none)" ],
+    "repetitive" : [ "(none)" ],
+    "band" : [ "(none)" ],
+    "relistenable" : [ "(none)" ],
+    "attention demand" : [ "(none)" ],
+    "notes" : [ "(none)" ],
+    "private vs shared expererience (community)" : [ "(none)" ],
+    "gender" : [ "(none)" ],
+    "tempo" : [ "(none)" ],
+    "likable" : [ "(none)" ],
+    "lyrical" : [ "(none)" ],
+    "explorative vs exploitative" : [ "(none)" ],
+    "feeling" : [ "(none)" ]
+  },
+  "timestamp" : "2025-07-11T07:36:25.944172510Z"
+}

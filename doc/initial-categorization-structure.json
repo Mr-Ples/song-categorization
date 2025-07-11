@@ -1,0 +1,119 @@
+{
+    "version": "1.0",
+    "questions": {
+      "root": {
+        "id": "experience_type",
+        "text": "Private experience vs shared experience?",
+        "type": "choice",
+        "options": [
+          {
+            "value": "private",
+            "label": "Private experience",
+            "next": null
+          },
+          {
+            "value": "shared", 
+            "label": "Shared experience",
+            "next": "shared_details"
+          }
+        ],
+        "allow_custom": true,
+        "allow_branch": true
+      },
+      "shared_details": {
+        "id": "community_size",
+        "text": "What's the community size?",
+        "type": "choice",
+        "options": [
+          {
+            "value": "niche",
+            "label": "Niche audience",
+            "next": "community_attributes"
+          },
+          {
+            "value": "general_small",
+            "label": "General audience (small)",
+            "next": "community_attributes"
+          },
+          {
+            "value": "general_large",
+            "label": "General audience (large)",
+            "next": "community_attributes"
+          }
+        ],
+        "allow_custom": true,
+        "allow_branch": true
+      },
+      "community_attributes": {
+        "id": "demographics",
+        "text": "Other community attributes?",
+        "type": "multi_choice",
+        "options": [
+          {"value": "age_young", "label": "Young audience"},
+          {"value": "age_old", "label": "Older audience"},
+          {"value": "gender_specific", "label": "Gender-specific"}
+        ],
+        "allow_custom": true,
+        "next": "exploration_type"
+      },
+      "exploration_type": {
+        "id": "explorative_vs_exploitative",
+        "text": "Explorative vs exploitative?",
+        "type": "choice",
+        "options": [
+          {
+            "value": "hits_spot",
+            "label": "Hits the spot",
+            "next": "relistenable"
+          },
+          {
+            "value": "endure_satisfy",
+            "label": "Satisfying if you endure it",
+            "next": "relistenable"
+          }
+        ],
+        "allow_custom": true,
+        "allow_branch": true
+      },
+      "relistenable": {
+        "id": "relistenable",
+        "text": "Is it relistenable?",
+        "type": "boolean",
+        "next": "technicals"
+      },
+      "technicals": {
+        "id": "lyrical_check",
+        "text": "Is it lyrical?",
+        "type": "boolean",
+        "true_next": "lyrical_details",
+        "false_next": "tempo"
+      },
+      "lyrical_details": {
+        "id": "repetition",
+        "text": "Repetition vs non-repeating?",
+        "type": "choice",
+        "options": [
+          {"value": "repetitive", "label": "Repetitive"},
+          {"value": "non_repeating", "label": "Non-repeating"}
+        ],
+        "next": "identity_message"
+      },
+      "identity_message": {
+        "id": "identity_message",
+        "text": "Does identity or message matter?",
+        "type": "boolean",
+        "next": "tempo"
+      },
+      "tempo": {
+        "id": "tempo",
+        "text": "What's the tempo?",
+        "type": "choice",
+        "options": [
+          {"value": "slow", "label": "Slow"},
+          {"value": "medium", "label": "Medium"},
+          {"value": "fast", "label": "Fast"}
+        ],
+        "next": "likeable"
+      }
+    }
+  }

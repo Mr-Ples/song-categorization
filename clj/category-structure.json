@@ -1,0 +1,53 @@
+[ {
+  "label" : "likable",
+  "options" : [ "slaps", "decent", "ok", "forgettible" ]
+}, {
+  "label" : "private vs shared expererience (community)",
+  "options" : [ "private expererience", "shared expererience" ],
+  "extra_options" : [ ]
+}, {
+  "trigger" : "shared expererience",
+  "label" : "community size",
+  "options" : [ "niche", "medium", "wide" ]
+}, {
+  "label" : "identity",
+  "options" : [ ],
+  "extra_options" : [ "generic", "attractive", "better", "cunning", "drone" ]
+}, {
+  "label" : "gender",
+  "options" : [ "male", "female" ]
+}, {
+  "label" : "explorative vs exploitative",
+  "options" : [ "exploitative (hits the spot)", "explorative (satisfying if you endure it)" ]
+}, {
+  "label" : "relistenable",
+  "options" : [ "high", "medium", "low" ]
+}, {
+  "label" : "lyrical",
+  "options" : [ "high", "medium", "low" ]
+}, {
+  "label" : "repetitive",
+  "options" : [ "high", "medium", "low" ]
+}, {
+  "label" : "tempo",
+  "options" : [ "fast", "medium", "slow" ]
+}, {
+  "label" : "genre",
+  "options" : [ "electronic", "acoustic", "rock/metal" ]
+}, {
+  "label" : "band",
+  "options" : [ "solo", "band" ]
+}, {
+  "label" : "attention demand",
+  "options" : [ "high", "medium", "low" ]
+}, {
+  "label" : "valence",
+  "options" : [ "positive", "negative", "neutral" ]
+}, {
+  "label" : "feeling",
+  "options" : [ "joy", "excitement", "melancholy", "relaxed" ]
+}, {
+  "label" : "notes",
+  "options" : [ ],
+  "extra_options" : [ "strong identity effect" ]
+} ]
