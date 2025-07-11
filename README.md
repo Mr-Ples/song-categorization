@@ -23,9 +23,10 @@ cp .env.example .env
 ```
 
 2) get your client id and secret from the spotify developer dashboard (you might have to create an app)
-3) get your access token and refresh token either by deploying the web app (see `./spotify-refresh-token/README.md` for deployment details, its free and easy and fast, literally 2 commands or just use my deployement at  is a web app that is both UI and API for generating access/refresh tokens and an API https://spotify-refresh-token-app.sidenotes.workers.dev/, you would need to add this URL as your redirect URI in the developer dashboard)
-4) create an UNCATEGORIZED playlist in spotify and get its id (copy the playlist link into a browser and get the id from the url, `.../playlist/<playlist-id>`)
-5) create a CATEGORIZED playlist in spotify and get its id (copy the playlist link into a browser and get the id from the url, `.../playlist/<playlist-id>`)
+3) get your access token and refresh token either by deploying the web app (see `./spotify-refresh-token/README.md` for deployment details, its free and easy and fast, literally 2 commands or just use my deployement - it's a web app that is both UI and API for generating access/refresh tokens and an API https://spotify-refresh-token-app.sidenotes.workers.dev/, you would need to add this URL as your redirect URI in the developer dashboard)
+4) create an `UNCATEGORIZED` playlist in spotify and get its id (copy the playlist link into a browser and get the id from the url, `.../playlist/<playlist-id>`)
+5) create a `CATEGORIZED` playlist in spotify and get its id (copy the playlist link into a browser and get the id from the url, `.../playlist/<playlist-id>`)
+6) you need babashka to run clojure scripts, install it via https://github.com/babashka/babashka#installation
 
 ### Example usage
 
