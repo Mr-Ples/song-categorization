@@ -42,6 +42,11 @@ cd <this-repo>/clj && bb categorize-and-move-spec.clj
 
 A new categorization file is created in `clj/data`, (see `clj/example_categorization.json` for an example output)
 
+- uses fzf to have multi select
+- you can enter a comma seperated list of anything you want for any question
+    - everything you enter yourself is remembered and will be an option in the future
+    - you can modify the options and extra_options in `clj/category-structure.json`
+
 ---
 
 ## Future
