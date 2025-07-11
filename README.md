@@ -4,6 +4,9 @@ This is an attempt to create a sparse interpretable dataset that represents the 
 
 Additionally it's an investigation into music, culture, philosophy of programs and cetagorization
 
+
+![example](https://github.com/Mr-Ples/song-categorization/blob/main/example.gif)
+
 ## Usage
 
 Ultimately this is a tool for categorization, the idea is to have a uncategorized playlist that you can enrich with your liked playlist or whatever other source you want, and an empty categorized playlist
@@ -46,6 +49,8 @@ A new categorization file is created in `clj/data`, (see `clj/example_categoriza
 - you can enter a comma seperated list of anything you want for any question
     - everything you enter yourself is remembered and will be an option in the future
     - you can modify the options and extra_options in `clj/category-structure.json`
+
+
 
 ---
 
