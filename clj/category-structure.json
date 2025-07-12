@@ -12,7 +12,7 @@
 }, {
   "label" : "identity",
   "options" : [ ],
-  "extra_options" : [ "generic", "attractive", "better", "cunning", "drone" ]
+  "extra_options" : [ "generic", "attractive", "better", "cunning", "drone", "iconic/classic" ]
 }, {
   "label" : "gender",
   "options" : [ "male", "female" ]
