@@ -12,7 +12,7 @@
 }, {
   "label" : "identity",
   "options" : [ ],
-  "extra_options" : [ "generic", "attractive", "better", "cunning", "drone", "iconic/classic" ]
+  "extra_options" : [ "generic", "attractive", "better", "cunning", "drone", "iconic/classic", "esteem", "movement" ]
 }, {
   "label" : "gender",
   "options" : [ "male", "female" ]
@@ -33,7 +33,8 @@
   "options" : [ "fast", "medium", "slow" ]
 }, {
   "label" : "genre",
-  "options" : [ "electronic", "acoustic", "rock/metal" ]
+  "options" : [ "electronic", "acoustic", "rock/metal" ],
+  "extra_options" : [ "club" ]
 }, {
   "label" : "band",
   "options" : [ "solo", "band" ]
