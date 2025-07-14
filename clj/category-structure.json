@@ -34,7 +34,7 @@
 }, {
   "label" : "genre",
   "options" : [ "electronic", "acoustic", "rock/metal" ],
-  "extra_options" : [ "club" ]
+  "extra_options" : [ "club", "trance" ]
 }, {
   "label" : "band",
   "options" : [ "solo", "band" ]
