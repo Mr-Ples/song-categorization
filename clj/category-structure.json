@@ -12,7 +12,7 @@
 }, {
   "label" : "identity",
   "options" : [ ],
-  "extra_options" : [ "generic", "attractive", "better", "cunning", "drone", "iconic/classic", "esteem", "movement" ]
+  "extra_options" : [ "generic", "attractive", "better", "cunning", "drone", "iconic/classic", "esteem", "movement", "psi" ]
 }, {
   "label" : "gender",
   "options" : [ "male", "female" ]
@@ -34,7 +34,7 @@
 }, {
   "label" : "genre",
   "options" : [ "electronic", "acoustic", "rock/metal" ],
-  "extra_options" : [ "club", "trance" ]
+  "extra_options" : [ "club", "trance", "downtempo", "house" ]
 }, {
   "label" : "band",
   "options" : [ "solo", "band" ]
@@ -46,9 +46,10 @@
   "options" : [ "positive", "negative", "neutral" ]
 }, {
   "label" : "feeling",
-  "options" : [ "joy", "excitement", "melancholy", "relaxed" ]
+  "options" : [ "joy", "excitement", "melancholy", "relaxed" ],
+  "extra_options" : [ "love" ]
 }, {
   "label" : "notes",
   "options" : [ ],
-  "extra_options" : [ "strong identity effect" ]
+  "extra_options" : [ "strong identity effect", "mild identity effect" ]
 } ]
