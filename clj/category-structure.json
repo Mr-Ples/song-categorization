@@ -12,7 +12,7 @@
 }, {
   "label" : "identity",
   "options" : [ ],
-  "extra_options" : [ "generic", "attractive", "better", "cunning", "drone", "iconic/classic", "esteem", "movement", "psi" ]
+  "extra_options" : [ "generic", "attractive", "better", "cunning", "drone", "iconic/classic", "esteem", "movement", "psi", "yearn" ]
 }, {
   "label" : "gender",
   "options" : [ "male", "female" ]
@@ -43,11 +43,12 @@
   "options" : [ "high", "medium", "low" ]
 }, {
   "label" : "valence",
-  "options" : [ "positive", "negative", "neutral" ]
+  "options" : [ "positive", "negative", "neutral" ],
+  "extra_options" : [ "bittersweet" ]
 }, {
   "label" : "feeling",
   "options" : [ "joy", "excitement", "melancholy", "relaxed" ],
-  "extra_options" : [ "love" ]
+  "extra_options" : [ "love", "bittersweet", "yearning" ]
 }, {
   "label" : "notes",
   "options" : [ ],
